@@ -8,7 +8,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test.db'
 
 db = SQLAlchemy(app)
 
-BASECOORDS = [-13.9626, 33.7741]
+BASECOORDS = [47.614206, -122.335255]
 
 class Point(db.Model):
     id = db.Column(db.Integer, primary_key=True)

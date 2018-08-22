@@ -1,4 +1,4 @@
-BASECOORDS = [-13.9626, 33.7741];
+BASECOORDS = [47.614206, -122.335255];
 
 function makeMap() {
     var TILE_URL = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
